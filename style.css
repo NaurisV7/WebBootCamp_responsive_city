@@ -1,0 +1,39 @@
+body {
+    font-size: 21px;
+}
+
+img {
+    height: 300px;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.width {
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+    img {
+        height: auto;
+        width: 300px;
+    }
+}
+
